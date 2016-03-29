@@ -6,11 +6,6 @@
 
 library(dplyr)
 
-setwd("C:/Nadine Hamilton/Coursera/Data Science Toolkit/datasciencecoursera/Getting and cleaning data")
-
-
-
-
 # load variables names for the observation rows. Variable names are NOT unique so not loaded as factors
 df_var_names <- read.table("UCI HAR Dataset/features.txt", col.names = c("ID","varname"), stringsAsFactors = FALSE)
 
