@@ -1,6 +1,8 @@
-# different files
-# features.txt = contains labels for all observations delimited by a space
-# activity_labels.txt = contains grouping (1-6) of activity categories, delimited by a space
+# Modification history
+# Author: Nadine Hamilton
+# Date  : 30-Mar-2016
+# Description: v1.0 - submission for Wk 4 assignment
+
 
 library(dplyr)
 
