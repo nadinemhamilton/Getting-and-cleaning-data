@@ -25,16 +25,16 @@ The input data files are downloaded from https://d396qusza40orc.cloudfront.net/g
 The script run_analysis.R assumes the dyplr package has been previously installed. 
 
 ## Instructions
-1. Download the input data files as .zip and unpack into a directory called "UCI HAR Dataset"
-2. Set your working directory to the folder containing UCI HAR Dataset using the command setwd
+(@) Download the input data files as .zip and unpack into a directory called "UCI HAR Dataset"
+(@) Set your working directory to the folder containing UCI HAR Dataset using the command setwd
 ```
 > setwd("your path")
 ```
-3. Execute the script run_analysis.R
+(@) Execute the script run_analysis.R
 ```
 > source(run_analysis.R)
 ```
-4. Verify two output files have been created in the working directory called "combined_mean_signal.txt" (10299 rows  and 68 columns) and "clean_signal_data.txt" (180 rows and 68 columns).
+(@) Verify two output files have been created in the working directory called "combined_mean_signal.txt" (10299 rows  and 68 columns) and "clean_signal_data.txt" (180 rows and 68 columns).
 ```
 > clean_data <- read.table("clean_signal_data.txt", header = TRUE)
 > clean_mean_data <- read.table("combined_mean_signal_data.txt", header = TRUE)
